@@ -1,4 +1,5 @@
-public class Monster extends Character{
+package CharacterPackage;
+public class Monster extends Character {
 
 	public Monster(String name, int maxHp, int atk, int def, int hitRolls) {
 

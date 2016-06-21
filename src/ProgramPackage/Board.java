@@ -1,4 +1,8 @@
+package ProgramPackage;
 import java.awt.Point;
+
+import CharacterPackage.Monster;
+import CharacterPackage.Player;
 
 public class Board {
 

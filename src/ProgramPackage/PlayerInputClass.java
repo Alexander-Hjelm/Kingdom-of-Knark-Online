@@ -1,5 +1,8 @@
+package ProgramPackage;
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import CharacterPackage.Monster;
 
 public class PlayerInputClass
 {

@@ -1,5 +1,8 @@
+package ProgramPackage;
 import java.awt.Point;
 import java.util.ArrayList;
+
+import CharacterPackage.Monster;
 
 public class ConsoleOutputClass {
 

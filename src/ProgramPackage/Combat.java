@@ -1,5 +1,10 @@
+package ProgramPackage;
 import java.util.ArrayList;
 import java.util.Random;
+
+import CharacterPackage.Character;
+import CharacterPackage.Monster;
+import CharacterPackage.Player;
 
 public class Combat {
 
@@ -8,20 +13,20 @@ public class Combat {
 		int totalDamage = 0;
 		//charA attacks charB
 		final int ATK_VAL = throwDTwelve();
-		if(ATK_VAL <= charA.atk)
+		if(ATK_VAL <= charA.getAtk())
 		{
 			//Passed hit check
-			for(int i = 0; i < charA.hitRolls; i++)
+			for(int i = 0; i < charA.getHitRolls(); i++)
 			{
 				final int DICE_RES = throwDTwelve();
-				if(DICE_RES >= charB.def)
+				if(DICE_RES >= charB.getDef())
 				{
 					//Passed damage check
 					totalDamage += 1;
 				}
 			}
 			charB.modHp(-totalDamage);
-			Debug("Hit for " + Integer.toString(totalDamage) + " damage! " + charB.getName() + "'s hp is now: (" + charB.hp + " / " + charB.maxHp + ")...");
+			Debug("Hit for " + Integer.toString(totalDamage) + " damage! " + charB.getName() + "'s hp is now: (" + charB.getHp() + " / " + charB.getMaxHp() + ")...");
 			return;
 		}
 		

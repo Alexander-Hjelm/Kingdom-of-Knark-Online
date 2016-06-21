@@ -1,6 +1,8 @@
+package CharacterPackage;
 import java.awt.Point;
+import ProgramPackage.Board;
 
-public class Player extends Character{
+public class Player extends Character {
 	
 	private Point position;
 	

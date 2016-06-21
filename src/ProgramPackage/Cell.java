@@ -1,4 +1,7 @@
+package ProgramPackage;
 import java.util.ArrayList;
+
+import CharacterPackage.Monster;
 
 public class Cell {
 	private String desc; 
