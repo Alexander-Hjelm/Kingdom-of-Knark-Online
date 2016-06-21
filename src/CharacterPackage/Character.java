@@ -25,7 +25,6 @@ public class Character {
 	public int getHp()			{	return this.hp;			}
 	public int getMaxHp()		{	return this.maxHp;		}
 	
-	public void setDead(){}
-	
-	
+	public boolean getDead()	{	return this.dead;	}
+	public void setDead()		{	this.dead = true;	}
 }

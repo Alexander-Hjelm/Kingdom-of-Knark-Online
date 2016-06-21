@@ -29,12 +29,19 @@ public final class Program {
 	
 	public static void gameLoop()
 	{
+		combat.allMonstersAttack(gameBoard.player, gameBoard.getCell(gameBoard.player.getPos()).getMonsters());
+		
+		//Check if player is dead
+		if(gameBoard.player.getDead())
+		{
+			System.exit(0);
+		}
+		
 		consoleOutput.PrintInfo(gameBoard);			//Change player start pos to player pos "!!!!!!!!!!!!!!!!!!!!!
 		if (playerInput.ReadLine(gameBoard) == 0)
 		{
 			System.exit(0);
 		}
-		combat.allMonstersAttack(gameBoard.player, gameBoard.getCell(gameBoard.player.getPos()).getMonsters());
 	}
 	
 	public static void Debug(String inputText)

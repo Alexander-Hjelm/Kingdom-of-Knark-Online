@@ -57,10 +57,13 @@ public class ConsoleOutputClass {
 		ArrayList<Monster> monsterList = currentCell.getMonsters();
 		for(int i = 0; i < monsterList.size(); i++)
 		{
-			out = out.concat("A menacing " + monsterList.get(i).getName() + " stares at you...");
-			if (i != monsterList.size()-1)
+			if(!monsterList.get(i).getDead())
 			{
-				 out = out.concat("\n");
+				out = out.concat("A menacing " + monsterList.get(i).getName() + " stares at you...");
+				if (i != monsterList.size()-1)
+				{
+					 out = out.concat("\n");
+				}
 			}
 		}
 		return out;

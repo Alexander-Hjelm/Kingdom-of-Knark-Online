@@ -27,6 +27,13 @@ public class Combat {
 			}
 			charB.modHp(-totalDamage);
 			Debug("Hit for " + Integer.toString(totalDamage) + " damage! " + charB.getName() + "'s hp is now: (" + charB.getHp() + " / " + charB.getMaxHp() + ")...");
+			
+			if (charB.getHp() <= 0)
+			{
+				charB.setDead();
+				Debug(charB.getName() + " died...");
+			}
+			
 			return;
 		}
 		
@@ -41,8 +48,11 @@ public class Combat {
 		for(int i = 0; i < monsterList.size(); i++)
 		{
 			Monster currentMonster = monsterList.get(i);
-			Debug(currentMonster.getName() + " attacks!");
-			attack(currentMonster, player);				
+			if(!currentMonster.getDead())
+			{
+				Debug(currentMonster.getName() + " attacks!");
+				attack(currentMonster, player);
+			}
 		}
 		return;
 	}

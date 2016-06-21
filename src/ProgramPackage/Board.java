@@ -35,7 +35,9 @@ public class Board {
 		grid[0][1].setWalkableDir(1, false);
 		
 		//name, maxHp, atk, def, hitRolls
-		grid[1][0].addMonster(new Monster("Sven", 5, 3, 6, 2));
+		grid[1][0].addMonster(new Monster("Sven", 2, 3, 6, 2));
+		grid[1][0].addMonster(new Monster("Martin", 2, 3, 6, 2));
+		grid[1][0].addMonster(new Monster("Olof", 2, 3, 6, 2));
 		
 		//Populate monster, wall, desc, item and npc-arrays from JSON
 	}

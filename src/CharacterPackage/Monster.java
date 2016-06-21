@@ -12,11 +12,4 @@ public class Monster extends Character {
 		this.hitRolls = hitRolls;
 		this.dead = false;
 	}
-	
-	
-	
-	public void setDead()
-	{
-		this.dead = true;
-	}
 }

@@ -30,13 +30,13 @@ public class Player extends Character {
 				deltaPos = new Point(0, 1);
 			}
 			break;
-		
+			
 		case "south":
 			if (walkableDirs[1] == true){
 				deltaPos = new Point(0, -1);
 			}
 			break;
-			
+		
 		case "east":
 			if (walkableDirs[2] == true){
 				deltaPos = new Point(1, 0);
