@@ -13,7 +13,8 @@ public class Board {
 
 	public Board(Point startPos) {
 		//Create the player
-		player = new Player(20, 1, 0, startPos);
+		//maxHp, atk, def, startPos
+		player = new Player(20, 4, 0, startPos);
 		
 		//Create the grid
 		grid = new Cell[GRID_SIZE_X][GRID_SIZE_Y];
@@ -29,7 +30,8 @@ public class Board {
 		grid[0][0].setWalkableDir(0, false);
 		grid[0][1].setWalkableDir(1, false);
 		
-		grid[1][0].addMonster(new Monster("Mumintroll", 5, 3, 1));
+		//name, maxHp, atk, def, hitRolls
+		grid[1][0].addMonster(new Monster("Sven", 5, 3, 6, 2));
 		
 		//Populate monster, wall, desc, item and npc-arrays from JSON
 	}

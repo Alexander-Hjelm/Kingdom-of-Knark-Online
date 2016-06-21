@@ -1,10 +1,6 @@
 import java.awt.Point;
 
-public class Player {
-	private int maxHp;
-	private int hp;
-	private int atk;
-	private int def;
+public class Player extends Character{
 	
 	private Point position;
 	
@@ -15,6 +11,9 @@ public class Player {
 		this.atk = atk;
 		this.def = def;
 		this.position = startPos;
+		
+		this.hitRolls = 1;
+		this.dead = false;
 	}
 	
 	public int walk(String dir, Board gameBoard)

@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class PlayerInputClass
@@ -10,7 +11,6 @@ public class PlayerInputClass
 	{
 		String inputText = input.nextLine();
 		String[] inputTextSegments = inputText.split(" ");
-		
 		
 		switch(inputTextSegments[0])
 		{
@@ -29,6 +29,32 @@ public class PlayerInputClass
 					Debug("Command not recognized...");
 					break;
 				}
+			case "attack":
+				if(inputTextSegments.length > 1){
+					String targetName = inputTextSegments[1];
+					ArrayList<Monster> monsterList = gameBoard.getCell(gameBoard.player.getPos()).getMonsters();
+					
+					boolean attacked = false;	//Did we attack something?
+					
+					for(int i = 0; i < monsterList.size(); i++)
+					{
+						Monster currentMonster = monsterList.get(i);
+						if(currentMonster.getName().equals(targetName))
+						{
+							attacked = true;
+							final Monster target = currentMonster;
+							final Combat combat = new Combat();
+							combat.attack(gameBoard.player, target);
+							break;
+						}				
+					}
+					if(!attacked)
+					{
+						Debug("Target (" + targetName + ") is non-existent or out of range...");
+					}
+				}
+				break;
+			
 			default:
 				Debug("Command not recognized...");
 				break;
