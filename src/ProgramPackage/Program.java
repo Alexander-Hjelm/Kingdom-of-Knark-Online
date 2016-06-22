@@ -1,6 +1,9 @@
 package ProgramPackage;
 import java.awt.Point;
+import java.io.IOException;
 import java.util.ArrayList;
+
+import org.json.simple.parser.ParseException;
 
 public final class Program {
 
@@ -11,7 +14,7 @@ public final class Program {
 	private static Board gameBoard;
 	private static Point playerStartPos;
 	
-	public static void main(String[] args)
+	public static void main(String[] args) throws IOException, ParseException
 	{
 		playerInput = new PlayerInputClass();
 		consoleOutput = new ConsoleOutputClass();

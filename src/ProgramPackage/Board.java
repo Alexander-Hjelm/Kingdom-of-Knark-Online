@@ -1,5 +1,9 @@
 package ProgramPackage;
 import java.awt.Point;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import org.json.simple.parser.ParseException;
 
 import CharacterPackage.Monster;
 import CharacterPackage.Player;
@@ -10,15 +14,17 @@ public class Board {
 	private final int GRID_SIZE_X = 4;
 	private final int GRID_SIZE_Y = 4;
 
+	private JsonParser jsonParser = new JsonParser();
+	
 	public Player player;
 	
 	//The game board, represented as a 2d array
 	private Cell[][] grid;
 
-	public Board(Point startPos) {
+	public Board(Point startPos) throws IOException, ParseException {
 		//Create the player
-		//maxHp, atk, def, startPos
-		player = new Player(20, 4, 0, startPos);
+		//String name, int maxHp, int atk, int def, int hitRolls, Point startPos
+		player = new Player("playerName", 20, 4, 6, 2, startPos);
 		
 		//Create the grid
 		grid = new Cell[GRID_SIZE_X][GRID_SIZE_Y];
@@ -34,12 +40,18 @@ public class Board {
 		grid[0][0].setWalkableDir(0, false);
 		grid[0][1].setWalkableDir(1, false);
 		
-		//name, maxHp, atk, def, hitRolls
-		grid[1][0].addMonster(new Monster("Sven", 2, 3, 6, 2));
-		grid[1][0].addMonster(new Monster("Martin", 2, 3, 6, 2));
-		grid[1][0].addMonster(new Monster("Olof", 2, 3, 6, 2));
+		//String name, int maxHp, int atk, int def, int hitRolls, Point startPos
+		//grid[1][0].addMonster(new Monster("Sven", 2, 3, 6, 2, startPos));
+		//grid[1][0].addMonster(new Monster("Martin", 2, 3, 6, 2, startPos));
+		//grid[1][0].addMonster(new Monster("Olof", 2, 3, 6, 2, startPos));
 		
 		//Populate monster, wall, desc, item and npc-arrays from JSON
+		ArrayList<Monster> monsterImportList = jsonParser.getMonsters("gameData/monsters.json");
+		for(int i = 0; i < monsterImportList.size(); i++)
+		{
+			Monster monster = monsterImportList.get(i);
+			grid[monster.getPos().x][monster.getPos().y].addMonster(monster);
+		}
 	}
 	
 	public void checkPlayerOutOfBounds()

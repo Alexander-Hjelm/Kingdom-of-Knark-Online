@@ -1,0 +1,34 @@
+{
+    "Array": [
+
+        {
+            "name": "Thomas Bäck",
+            "maxHp": 5,
+            "atk": 3,
+            "def": 6,
+            "hitRolls": 2,
+            "startX": 1,
+            "startY": 1
+        },
+
+        {
+            "name": "Erik Sagvik",
+            "maxHp": 10,
+            "atk": 3,
+            "def": 4,
+            "hitRolls": 3,
+            "startX": 1,
+            "startY": 2
+        },
+        
+        {
+            "name": "Tomas_Möre",
+            "maxHp": 10,
+            "atk": 12,
+            "def": 4,
+            "hitRolls": 5,
+            "startX": 1,
+            "startY": 0
+        }
+    ]
+}

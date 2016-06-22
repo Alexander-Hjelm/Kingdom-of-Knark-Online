@@ -4,18 +4,8 @@ import ProgramPackage.Board;
 
 public class Player extends Character {
 	
-	private Point position;
-	
-	public Player(int maxHp, int atk, int def, Point startPos) {
-		
-		this.maxHp = maxHp;
-		this.hp = maxHp;
-		this.atk = atk;
-		this.def = def;
-		this.position = startPos;
-		
-		this.hitRolls = 1;
-		this.dead = false;
+	public Player(String name, int maxHp, int atk, int def, int hitRolls, Point startPos) {
+		super(name, maxHp, atk, def, hitRolls, startPos);
 	}
 	
 	public int walk(String dir, Board gameBoard)
@@ -62,6 +52,5 @@ public class Player extends Character {
 		return 1;
 	}
 	
-	public Point getPos() {	return position;}
-	public void setPos(Point newPos)	{	this.position = newPos;}	
+
 }
