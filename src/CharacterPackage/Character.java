@@ -34,17 +34,23 @@ public class Character {
 		return;
 	}
 	
-	public String getName() 	{	return this.name;		}
+	public String getName() 		{	return this.name;		}
 	
-	public int getAtk() 		{	return this.atk;		}
-	public int getDef()			{	return this.def;		}
-	public int getHitRolls()	{	return this.hitRolls;	}
-	public int getHp()			{	return this.hp;			}
-	public int getMaxHp()		{	return this.maxHp;		}
+	public int getAtk() 			{	return this.atk;		}
+	public int getDef()				{	return this.def;		}
+	public int getHitRolls()		{	return this.hitRolls;	}
+	public int getHp()				{	return this.hp;			}
+	public int getMaxHp()			{	return this.maxHp;		}
 	
-	public boolean getDead()	{	return this.dead;	}
-	public void setDead()		{	this.dead = true;	}
+	public void setAtk(int atk)				{	this.atk = atk;				}
+	public void setDef(int def)				{	this.def = def;				}
+	public void setHitRolls(int hitRolls)	{	this.hitRolls = hitRolls;	}
+	public void setHp(int hp)				{	this.hp = hp;				}
+	public void setMaxHp(int maxHp)			{	this.maxHp = maxHp;			}
 	
-	public Point getPos() {	return position;}
+	public boolean getDead()			{	return this.dead;		}
+	public void setDead(boolean dead)	{	this.dead = dead;		}
+	
+	public Point getPos() 				{	return position;}
 	public void setPos(Point newPos)	{	this.position = newPos;}	
 }

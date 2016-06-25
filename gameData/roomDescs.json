@@ -1,0 +1,17 @@
+{
+    "Array": [
+
+        {
+            "X": 0,
+            "Y": 0,
+            "desc": "You are standing in the starting room. It appears to be a dank marble cellar of sorts..."
+        },
+
+        {
+            "X": 1,
+            "Y": 0,
+            "desc": "You are standing in a turbulent hallway. Hostile chatter is all about..."
+        },
+
+    ]
+}

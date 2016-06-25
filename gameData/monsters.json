@@ -2,9 +2,10 @@
     "Array": [
 
         {
-            "name": "Thomas Bäck",
+            "name": "Thomas Bï¿½ck",
+            "type":  "human",
             "maxHp": 5,
-            "atk": 3,
+            "atk": 7,
             "def": 6,
             "hitRolls": 2,
             "startX": 1,
@@ -13,21 +14,34 @@
 
         {
             "name": "Erik Sagvik",
+            "type":  "gaming troll",
             "maxHp": 10,
-            "atk": 3,
+            "atk": 10,
             "def": 4,
             "hitRolls": 3,
             "startX": 1,
             "startY": 2
         },
-        
+
         {
-            "name": "Tomas_Möre",
-            "maxHp": 10,
-            "atk": 12,
-            "def": 4,
+            "name": "Sven",
+            "type":  "goblin",
+            "maxHp": 4,
+            "atk": 6,
+            "def": 2,
             "hitRolls": 5,
-            "startX": 1,
+            "startX": 4,
+            "startY": 3
+        },
+
+        {
+            "name": "Rikkon",
+            "type":  "rat",
+            "maxHp": 2,
+            "atk": 1,
+            "def": 1,
+            "hitRolls": 1,
+            "startX": 0,
             "startY": 0
         }
     ]

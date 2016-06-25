@@ -1,0 +1,36 @@
+{
+    "Array": [
+
+        {
+            "name": "Shortsword",
+            "cost": 155,
+            "hp": 0,
+            "atk": 1,
+            "def": 0,
+            "hitRolls": 1,
+            "type": "weapon"
+            
+        },
+
+        {
+            "name": "Bear hide",
+            "cost": 206,
+            "hp": 0,
+            "atk": 0,
+            "def": 2,
+            "hitRolls": 0,
+            "type": "armor"
+        },
+        
+        {
+            "name": "Amulet",
+            "cost": 21,
+            "hp": 2,
+            "atk": 0,
+            "def": 0,
+            "hitRolls": 0,
+            "type": "amulet"
+     	}
+
+    ]
+}

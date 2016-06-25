@@ -1,8 +1,16 @@
 package CharacterPackage;
 import java.awt.Point;
 import ProgramPackage.Board;
+import ProgramPackage.Item;
 
 public class Player extends Character {
+	
+	private int gold;
+	private int numberOfHealingScrolls;
+	
+	private Item activeWeapon;
+	private Item activeArmor;
+	private Item activeAmulet;
 	
 	public Player(String name, int maxHp, int atk, int def, int hitRolls, Point startPos) {
 		super(name, maxHp, atk, def, hitRolls, startPos);
@@ -52,5 +60,18 @@ public class Player extends Character {
 		return 1;
 	}
 	
-
+	public int getNumberOfHealingScrolls()				{	return this.numberOfHealingScrolls;		}
+	public void setNumberOfHealingScrolls(int newVal)	{	this.numberOfHealingScrolls = newVal;	}
+	
+	public int getGold()			{	return this.gold;	}
+	public void modGold(int diff)	{	this.gold += diff;	}
+	
+	public Item getActiveWeapon()	{	return activeWeapon;	}
+	public Item getActiveArmor()	{	return activeArmor;		}
+	public Item getActiveAmulet()	{	return activeAmulet;	}
+	
+	public void setActiveWeapon(Item weapon)	{	this.activeWeapon = weapon;	}
+	public void setActiveArmor(Item armor)		{	this.activeArmor = armor;	}
+	public void setActiveAmulet(Item amulet)	{	this.activeAmulet = amulet;	}
+	
 }

@@ -21,6 +21,10 @@ public class Cell {
 		return desc;
 	}
 	
+	public void setDesc( String desc ){
+		this.desc = desc;
+	}
+	
 	public boolean[] getWalkableDirs()
 	{
 		return this.walkableDirs;
@@ -39,9 +43,22 @@ public class Cell {
 	{
 		monsterList.add(monster);
 	}
+	public void removeMonster(Monster monster)
+	{
+		monsterList.remove(monster);
+	}
 	
 	public ArrayList<Monster> getMonsters()
 	{
 		return this.monsterList;
+	}
+
+	public void clearMonsters() {
+		this.monsterList.clear();
+	}
+
+	public void addWall(int input) {
+		this.walkableDirs[input] = false;
+		
 	}
 }
