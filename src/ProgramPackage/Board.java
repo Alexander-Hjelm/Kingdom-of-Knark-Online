@@ -11,11 +11,12 @@ import CharacterPackage.Player;
 public class Board {
 
 	//dimensions of grid
-	private final int GRID_SIZE_X = 100;
-	private final int GRID_SIZE_Y = 100;
+	private final int GRID_SIZE_X = 31;
+	private final int GRID_SIZE_Y = 39;
 	private boolean shopActive = true;
 	
 	private JsonParser jsonParser = new JsonParser();
+	private CsvParser csvParser = new CsvParser();
 	
 	public Player player;
 	private ArrayList<Item> availableItems = new ArrayList<Item>();
@@ -56,8 +57,8 @@ public class Board {
 		//Populate item-array from JSON
 		this.availableItems = jsonParser.getItems("gameData/items.json");
 		
-		//Populate desc-array from JSON
-		jsonParser.setRoomDescs("gameData/roomDescs.json", grid);
+		//Populate desc-array from CSV
+		csvParser.setRoomDescs("gameData/roomDescs.csv", grid);
 	}
 	
 	public void tryAndSetLevelBounds(int x, int y, Cell cell)
@@ -73,7 +74,7 @@ public class Board {
 	
 	public void repopulateMonsters() throws IOException, ParseException
 	{
-		//Clear alla monster-arrays
+		//Clear all monster-arrays
 		for(int i = 0; i < GRID_SIZE_X; i++){
 			for(int j = 0; j < GRID_SIZE_Y; j++){
 				grid[i][j].clearMonsters();
@@ -88,6 +89,16 @@ public class Board {
 			grid[monster.getPos().x][monster.getPos().y].addMonster(monster);
 		}
 	}
+	
+	public void removeAllMonsters() {
+		//Clear all monster-arrays
+		for(int i = 0; i < GRID_SIZE_X; i++){
+			for(int j = 0; j < GRID_SIZE_Y; j++){
+				grid[i][j].clearMonsters();
+			}
+		}
+	}
+	
 	
 	public boolean getShopActive()
 	{

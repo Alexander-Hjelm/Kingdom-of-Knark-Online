@@ -24,24 +24,28 @@ public class Player extends Character {
 		switch(dir)
 		{
 		case "north":
+		case "n":
 			if (walkableDirs[0] == true){
 				deltaPos = new Point(0, 1);
 			}
 			break;
 			
 		case "south":
+		case "s":
 			if (walkableDirs[1] == true){
 				deltaPos = new Point(0, -1);
 			}
 			break;
 		
 		case "east":
+		case "e":
 			if (walkableDirs[2] == true){
 				deltaPos = new Point(1, 0);
 			}
 			break;
 		
 		case "west":
+		case "w":
 			if (walkableDirs[3] == true){
 				deltaPos = new Point(-1, 0);
 			}
@@ -60,11 +64,16 @@ public class Player extends Character {
 		return 1;
 	}
 	
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
 	public int getNumberOfHealingScrolls()				{	return this.numberOfHealingScrolls;		}
 	public void setNumberOfHealingScrolls(int newVal)	{	this.numberOfHealingScrolls = newVal;	}
 	
 	public int getGold()			{	return this.gold;	}
-	public void modGold(int diff)	{	this.gold += diff;	}
+	public void addGold(int diff)	{	this.gold += diff;	}
 	
 	public Item getActiveWeapon()	{	return activeWeapon;	}
 	public Item getActiveArmor()	{	return activeArmor;		}

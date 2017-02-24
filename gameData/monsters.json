@@ -2,47 +2,2452 @@
     "Array": [
 
         {
-            "name": "Thomas B�ck",
-            "type":  "human",
-            "maxHp": 5,
-            "atk": 7,
-            "def": 6,
-            "hitRolls": 2,
-            "startX": 1,
-            "startY": 1
-        },
-
-        {
-            "name": "Erik Sagvik",
-            "type":  "gaming troll",
-            "maxHp": 10,
-            "atk": 10,
-            "def": 4,
-            "hitRolls": 3,
-            "startX": 1,
-            "startY": 2
-        },
-
-        {
-            "name": "Sven",
-            "type":  "goblin",
-            "maxHp": 4,
-            "atk": 6,
-            "def": 2,
-            "hitRolls": 5,
-            "startX": 4,
-            "startY": 3
-        },
-
-        {
-            "name": "Rikkon",
-            "type":  "rat",
+            "name": "Kyn",
+            "type": "sewer rat",
             "maxHp": 2,
             "atk": 1,
             "def": 1,
             "hitRolls": 1,
-            "startX": 0,
+            "stun": 0,
+            "startX": 4,
+            "startY": 3
+        },
+        
+        {
+            "name": "Nuk",
+            "type": "Sewer rat",
+            "maxHp": 2,
+            "atk": 1,
+            "def": 1,
+            "hitRolls": 1,
+            "stun": 0,
+            "startX": 5,
+            "startY": 2
+        },
+        
+        {
+            "name": "Rikkon",
+            "type": "Sewer rat",
+            "maxHp": 2,
+            "atk": 1,
+            "def": 1,
+            "hitRolls": 1,
+            "stun": 0,
+            "startX": 6,
+            "startY": 3
+        },
+        
+        {
+            "name": "Abel",
+            "type": "Revenant",
+            "maxHp": 4,
+            "atk": 2,
+            "def": 1,
+            "hitRolls": 2,
+            "stun": 0,
+            "startX": 9,
+            "startY": 8
+        },
+        
+        {
+            "name": "Seth",
+            "type": "Revenant",
+            "maxHp": 4,
+            "atk": 2,
+            "def": 1,
+            "hitRolls": 2,
+            "stun": 0,
+            "startX": 10,
+            "startY": 8
+        },
+        
+        {
+            "name": "Roxb",
+            "type": "Goblin Pillager",
+            "maxHp": 5,
+            "atk": 2,
+            "def": 2,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 11,
+            "startY": 10
+        },
+             
+        {
+            "name": "Fixi",
+            "type": "Goblin Pillager",
+            "maxHp": 5,
+            "atk": 2,
+            "def": 2,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 12,
+            "startY": 11
+        },
+                
+        {
+            "name": "Grease",
+            "type": "Goblin Pillager",
+            "maxHp": 5,
+            "atk": 2,
+            "def": 2,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 13,
+            "startY": 9
+        },
+        
+        {
+            "name": "Phik",
+            "type": "Goblin Pikeman",
+            "maxHp": 5,
+            "atk": 3,
+            "def": 2,
+            "hitRolls": 2,
+            "stun": 0,
+            "startX": 14,
+            "startY": 10
+        },
+        
+        {
+            "name": "Greth",
+            "type": "Goblin Pikeman",
+            "maxHp": 5,
+            "atk": 3,
+            "def": 2,
+            "hitRolls": 2,
+            "stun": 0,
+            "startX": 13,
+            "startY": 11
+        },
+                
+        {
+            "name": "Virx",
+            "type": "Goblin Shieldman",
+            "maxHp": 6,
+            "atk": 2,
+            "def": 4,
+            "hitRolls": 1,
+            "stun": 0,
+            "startX": 16,
+            "startY": 9
+        },
+                        
+        {
+            "name": "Reft",
+            "type": "Goblin Shieldman",
+            "maxHp": 6,
+            "atk": 2,
+            "def": 4,
+            "hitRolls": 1,
+            "stun": 0,
+            "startX": 17,
+            "startY": 10
+        },
+                        
+        {
+            "name": "Kirza",
+            "type": "Goblin Shieldman",
+            "maxHp": 6,
+            "atk": 2,
+            "def": 4,
+            "hitRolls": 1,
+            "stun": 0,
+            "startX": 18,
+            "startY": 10
+        },
+        
+        {
+            "name": "Eztha",
+            "type": "Goblin Crossbowman",
+            "maxHp": 3,
+            "atk": 4,
+            "def": 2,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 17,
+            "startY": 8
+        },
+        
+        {
+            "name": "Metix",
+            "type": "Goblin Crossbowman",
+            "maxHp": 3,
+            "atk": 4,
+            "def": 2,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 18,
+            "startY": 8
+        },
+                
+        {
+            "name": "Krix",
+            "type": "Goblin Crossbowman",
+            "maxHp": 3,
+            "atk": 4,
+            "def": 2,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 17,
+            "startY": 12
+        },
+     
+        {
+            "name": "Kwink",
+            "type": "Goblin Scavenger",
+            "maxHp": 6,
+            "atk": 5,
+            "def": 3,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 21,
+            "startY": 11
+        },
+     
+        {
+            "name": "Nigle",
+            "type": "Goblin Scavenger",
+            "maxHp": 6,
+            "atk": 5,
+            "def": 3,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 24,
+            "startY": 11
+        },
+     
+        {
+            "name": "Rildi",
+            "type": "Goblin Scavenger",
+            "maxHp": 6,
+            "atk": 5,
+            "def": 3,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 28,
+            "startY": 11
+        },
+     
+        {
+            "name": "Wiek",
+            "type": "Goblin Scavenger",
+            "maxHp": 6,
+            "atk": 5,
+            "def": 3,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 25,
+            "startY": 13
+        },
+     
+        {
+            "name": "Qiet",
+            "type": "Goblin Scavenger",
+            "maxHp": 6,
+            "atk": 5,
+            "def": 3,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 22,
+            "startY": 13
+        },
+     
+        {
+            "name": "Soix",
+            "type": "Goblin Rockclimber",
+            "maxHp": 9,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 25,
+            "startY": 12
+        },
+     
+        {
+            "name": "Xuek",
+            "type": "Goblin Rockclimber",
+            "maxHp": 9,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 24,
+            "startY": 14
+        },
+     
+        {
+            "name": "Fixik",
+            "type": "Goblin Rockclimber",
+            "maxHp": 9,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 22,
+            "startY": 15
+        },
+        
+        {
+            "name": "Thorog",
+            "type": "Molten Demon",
+            "maxHp": 17,
+            "atk": 7,
+            "def": 6,
+            "hitRolls": 7,
+            "stun": 0,
+            "startX": 27,
+            "startY": 16
+        },
+        
+        {
+            "name": "Anheg",
+            "type": "Molten Demon",
+            "maxHp": 17,
+            "atk": 7,
+            "def": 6,
+            "hitRolls": 7,
+            "stun": 0,
+            "startX": 29,
+            "startY": 15
+        },
+        
+        {
+            "name": "Morrg",
+            "type": "Molten Demon",
+            "maxHp": 17,
+            "atk": 7,
+            "def": 6,
+            "hitRolls": 7,
+            "stun": 0,
+            "startX": 29,
+            "startY": 13
+        },
+
+        {
+            "name": "Gohm",
+            "type": "Flame Imp",
+            "maxHp": 9,
+            "atk": 4,
+            "def": 4,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 27,
+            "startY": 13
+        },
+
+        {
+            "name": "Vile",
+            "type": "Flame Imp",
+            "maxHp": 9,
+            "atk": 4,
+            "def": 4,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 25,
+            "startY": 17
+        },
+
+        {
+            "name": "Ramtt",
+            "type": "Flame Imp",
+            "maxHp": 9,
+            "atk": 4,
+            "def": 4,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 26,
+            "startY": 15
+        },
+
+        {
+            "name": "Veril",
+            "type": "Flame Imp",
+            "maxHp": 9,
+            "atk": 4,
+            "def": 4,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 28,
+            "startY": 14
+        },
+
+        {
+            "name": "Khara",
+            "type": "Flame Imp",
+            "maxHp": 9,
+            "atk": 4,
+            "def": 4,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 28,
+            "startY": 17
+        },
+        
+        {
+            "name": "Gurgh",
+            "type": "Rotting dead",
+            "maxHp": 14,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 21,
+            "startY": 24
+        },
+        
+        {
+            "name": "Argh",
+            "type": "Rotting dead",
+            "maxHp": 14,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 22,
+            "startY": 26
+        },
+        
+        {
+            "name": "Efgh",
+            "type": "Rotting dead",
+            "maxHp": 14,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 24,
+            "startY": 25
+        },
+        
+        {
+            "name": "Ugh",
+            "type": "Rotting dead",
+            "maxHp": 14,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 24,
+            "startY": 28
+        },
+        
+        {
+            "name": "Yrf",
+            "type": "Rotting dead",
+            "maxHp": 14,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 27,
+            "startY": 24
+        },
+        
+        {
+            "name": "Omfh",
+            "type": "Rotting dead",
+            "maxHp": 14,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 28,
+            "startY": 23
+        },
+
+        {
+            "name": "Cloven-footed Demon",
+            "type": "Marelun",
+            "maxHp": 19,
+            "atk": 5,
+            "def": 5,
+            "hitRolls": 6,
+            "stun": 1,
+            "startX": 17,
+            "startY": 7
+        },
+
+        {
+            "name": "Rex",
+            "type": "Guard Dog",
+            "maxHp": 4,
+            "atk": 5,
+            "def": 2,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 4,
+            "startY": 8
+        },
+
+        {
+            "name": "Tai",
+            "type": "Guard Dog",
+            "maxHp": 4,
+            "atk": 5,
+            "def": 2,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 3,
+            "startY": 7
+        },
+        
+        {
+            "name": "Scruff",
+            "type": "Guard Dog",
+            "maxHp": 4,
+            "atk": 5,
+            "def": 2,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 6,
+            "startY": 7
+        },
+
+        {
+            "name": "Orfus",
+            "type": "Dead Legionaire",
+            "maxHp": 6,
+            "atk": 3,
+            "def": 4,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 3,
+            "startY": 6
+        },
+        
+        {
+            "name": "Remae",
+            "type": "Dead Legionaire",
+            "maxHp": 6,
+            "atk": 3,
+            "def": 4,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 4,
+            "startY": 5
+        },
+
+        {
+            "name": "Fae",
+            "type": "Shadow Servant",
+            "maxHp": 7,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 1,
+            "startY": 6
+        },
+        
+        
+        {
+            "name": "Bran",
+            "type": "Shadow Servant",
+            "maxHp": 7,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 2,
             "startY": 0
+        },
+        
+        {
+            "name": "Toral",
+            "type": "Shadow Servant",
+            "maxHp": 7,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 5,
+            "startY": 0
+        },
+                
+        {
+            "name": "Linde",
+            "type": "Shadow Servant",
+            "maxHp": 7,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 5,
+            "startY": 1
+        },
+        
+        {
+            "name": "Vohun",
+            "type": "Flame Imp",
+            "maxHp": 9,
+            "atk": 4,
+            "def": 4,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 0,
+            "startY": 2
+        },
+                
+        {
+            "name": "Boghur",
+            "type": "Flame Imp",
+            "maxHp": 9,
+            "atk": 4,
+            "def": 4,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 0,
+            "startY": 7
+        },
+                        
+        {
+            "name": "Iph",
+            "type": "Animated Flame",
+            "maxHp": 10,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 5,
+            "startY": 11
+        },
+                                
+        {
+            "name": "Teph",
+            "type": "Animated Flame",
+            "maxHp": 10,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 1,
+            "startY": 11
+        },
+                                      
+        {
+            "name": "Ohn",
+            "type": "Magic Formation",
+            "maxHp": 12,
+            "atk": 5,
+            "def": 5,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 2,
+            "startY": 12
+        },
+                                              
+        {
+            "name": "Ahr",
+            "type": "Magic Formation",
+            "maxHp": 12,
+            "atk": 5,
+            "def": 5,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 1,
+            "startY": 13
+        },
+                                                      
+        {
+            "name": "Roth",
+            "type": "Stone Golem",
+            "maxHp": 17,
+            "atk": 4,
+            "def": 7,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 1,
+            "startY": 15
+        },
+                                                              
+        {
+            "name": "Hem",
+            "type": "Stone Golem",
+            "maxHp": 17,
+            "atk": 4,
+            "def": 7,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 6,
+            "startY": 18
+        },
+                                                                      
+        {
+            "name": "Tham",
+            "type": "Living Ooze",
+            "maxHp": 13,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 4,
+            "startY": 16
+        },
+                                                                              
+        {
+            "name": "Ghest",
+            "type": "Living Ooze",
+            "maxHp": 13,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 4,
+            "startY": 18
+        },
+                                                                              
+        {
+            "name": "Verx",
+            "type": "Living Ooze",
+            "maxHp": 13,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 5,
+            "startY": 15
+        },
+                                                                                           
+        {
+            "name": "Glurh",
+            "type": "Flesh Formation",
+            "maxHp": 15,
+            "atk": 6,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 3,
+            "startY": 14
+        },
+                                                                                                   
+        {
+            "name": "Slegh",
+            "type": "Flesh Formation",
+            "maxHp": 15,
+            "atk": 6,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 7,
+            "startY": 16
+        },
+                                                                                                           
+        {
+            "name": "Brius",
+            "type": "Mad Acolyte",
+            "maxHp": 13,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 8,
+            "startY": 15
+        },
+        
+        {
+            "name": "Thaneg",
+            "type": "Mad Acolyte",
+            "maxHp": 13,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 23,
+            "startY": 3
+        },
+                                                                                                                   
+        {
+            "name": "Pathe",
+            "type": "Mad Acolyte",
+            "maxHp": 13,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 11,
+            "startY": 17
+        },
+                                                                                                                           
+        {
+            "name": "Daarth",
+            "type": "Mad Acolyte",
+            "maxHp": 13,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 9,
+            "startY": 20
+        },
+        
+        {
+            "name": "Honnr",
+            "type": "Mad Acolyte",
+            "maxHp": 13,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 21,
+            "startY": 21
+        },
+        
+        {
+            "name": "Eyrath",
+            "type": "Mad Acolyte",
+            "maxHp": 13,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 22,
+            "startY": 21
+        },
+                                                                                      
+        {
+            "name": "Vith",
+            "type": "Living Ooze",
+            "maxHp": 13,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 6,
+            "startY": 14
+        },
+                                                                                              
+        {
+            "name": "Hithe",
+            "type": "Living Ooze",
+            "maxHp": 13,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 4,
+            "startY": 13
+        },
+                                                                                                
+        {
+            "name": "Rekke",
+            "type": "Skeletal Conjuration",
+            "maxHp": 13,
+            "atk": 5,
+            "def": 5,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 6,
+            "startY": 10
+        },
+                                                                                                        
+        {
+            "name": "Kleck",
+            "type": "Skeletal Conjuration",
+            "maxHp": 13,
+            "atk": 5,
+            "def": 5,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 7,
+            "startY": 13
+        },
+                                                                                                        
+        {
+            "name": "Mirge",
+            "type": "Skeletal Conjuration",
+            "maxHp": 13,
+            "atk": 5,
+            "def": 5,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 8,
+            "startY": 10
+        },
+
+        {
+            "name": "Funras",
+            "type": "Dead Guardsman",
+            "maxHp": 9,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 9,
+            "startY": 11
+        },
+        
+        {
+            "name": "Octai",
+            "type": "Dead Guardsman",
+            "maxHp": 9,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 11,
+            "startY": 13
+        },
+        
+        {
+            "name": "Belas",
+            "type": "Dead Guardsman",
+            "maxHp": 9,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 14,
+            "startY": 12
+        },
+                
+        {
+            "name": "Tryge",
+            "type": "Dead Raider",
+            "maxHp": 8,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 12,
+            "startY": 13
+        },
+                        
+        {
+            "name": "Garth",
+            "type": "Dead Raider",
+            "maxHp": 8,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 16,
+            "startY": 15
+        },
+                        
+        {
+            "name": "Ragne",
+            "type": "Dead Raider",
+            "maxHp": 8,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 12,
+            "startY": 13
+        },
+                
+        {
+            "name": "Sawer",
+            "type": "Dead Raider",
+            "maxHp": 8,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 24,
+            "startY": 10
+        },
+                
+        {
+            "name": "Kamron",
+            "type": "Dead Raider",
+            "maxHp": 8,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 25,
+            "startY": 9
+        },
+                
+        {
+            "name": "Roffe",
+            "type": "Dead Raider",
+            "maxHp": 8,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 27,
+            "startY": 9
+        },
+                
+        {
+            "name": "Grae",
+            "type": "Dead Raider",
+            "maxHp": 8,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 29,
+            "startY": 10
+        },
+                
+        {
+            "name": "Sidd",
+            "type": "Dead Raider",
+            "maxHp": 8,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 26,
+            "startY": 8
+        },
+                
+        {
+            "name": "Bran",
+            "type": "Dead Raider",
+            "maxHp": 8,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 28,
+            "startY": 9
+        },
+                
+        {
+            "name": "Thurn",
+            "type": "Dead Raider",
+            "maxHp": 8,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 26,
+            "startY": 10
+        },
+                      
+        {
+            "name": "Uthez",
+            "type": "Goblin Shieldman",
+            "maxHp": 6,
+            "atk": 2,
+            "def": 4,
+            "hitRolls": 1,
+            "stun": 0,
+            "startX": 19,
+            "startY": 11
+        },
+                              
+        {
+            "name": "Zaxr",
+            "type": "Goblin Shieldman",
+            "maxHp": 6,
+            "atk": 2,
+            "def": 4,
+            "hitRolls": 1,
+            "stun": 0,
+            "startX": 18,
+            "startY": 14
+        },
+                                      
+        {
+            "name": "Rethz",
+            "type": "Malificent Imp",
+            "maxHp": 4,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 18,
+            "startY": 6
+        },
+                                              
+        {
+            "name": "Zaith",
+            "type": "Malificent Imp",
+            "maxHp": 4,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 19,
+            "startY": 8
+        },
+                                              
+        {
+            "name": "Kresth",
+            "type": "Malificent Imp",
+            "maxHp": 4,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 16,
+            "startY": 15
+        },
+                                
+        {
+            "name": "Gento",
+            "type": "Dead Raider",
+            "maxHp": 8,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 9,
+            "startY": 15
+        },
+                                 
+        {
+            "name": "Arrye",
+            "type": "Dead Raider",
+            "maxHp": 8,
+            "atk": 4,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 10,
+            "startY": 15
+        },
+                                                                                                    
+        {
+            "name": "Lithe",
+            "type": "Murderous Arachnid",
+            "maxHp": 15,
+            "atk": 6,
+            "def": 6,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 14,
+            "startY": 16
+        },
+                                                                                                            
+        {
+            "name": "Lithe",
+            "type": "Murderous Arachnid",
+            "maxHp": 15,
+            "atk": 6,
+            "def": 6,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 15,
+            "startY": 15
+        },
+                                                                                                            
+        {
+            "name": "Silth",
+            "type": "Murderous Arachnid",
+            "maxHp": 15,
+            "atk": 6,
+            "def": 6,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 21,
+            "startY": 15
+        },
+                                                                                                                    
+        {
+            "name": "Vithf",
+            "type": "Murderous Arachnid",
+            "maxHp": 15,
+            "atk": 6,
+            "def": 6,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 21,
+            "startY": 15
+        },
+                                                                                                                            
+        {
+            "name": "Krill",
+            "type": "Venomous Roach",
+            "maxHp": 14,
+            "atk": 6,
+            "def": 3,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 23,
+            "startY": 16
+        },
+                                                                                                                                    
+        {
+            "name": "Arach",
+            "type": "Venomous Roach",
+            "maxHp": 14,
+            "atk": 6,
+            "def": 3,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 16,
+            "startY": 17
+        },
+                                                                                                                                    
+        {
+            "name": "Ifhe",
+            "type": "Venomous Roach",
+            "maxHp": 14,
+            "atk": 6,
+            "def": 3,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 19,
+            "startY": 18
+        },
+                                                                                            
+        {
+            "name": "Osma",
+            "type": "Brass Construct",
+            "maxHp": 20,
+            "atk": 6,
+            "def": 6,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 7,
+            "startY": 21
+        },
+                                                                                                    
+        {
+            "name": "Inite",
+            "type": "Brass Construct",
+            "maxHp": 20,
+            "atk": 6,
+            "def": 6,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 5,
+            "startY": 22
+        },
+        
+        {
+            "name": "Labor",
+            "type": "Brass Construct",
+            "maxHp": 20,
+            "atk": 6,
+            "def": 6,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 7,
+            "startY": 23
+        },
+                
+        {
+            "name": "Almor",
+            "type": "Marble Construct",
+            "maxHp": 20,
+            "atk": 6,
+            "def": 8,
+            "hitRolls": 10,
+            "stun": 0,
+            "startX": 5,
+            "startY": 28
+        },
+                        
+        {
+            "name": "Durite",
+            "type": "Marble Construct",
+            "maxHp": 20,
+            "atk": 6,
+            "def": 8,
+            "hitRolls": 10,
+            "stun": 0,
+            "startX": 3,
+            "startY": 28
+        },
+                                
+        {
+            "name": "Mardon",
+            "type": "Marble Construct",
+            "maxHp": 20,
+            "atk": 6,
+            "def": 8,
+            "hitRolls": 10,
+            "stun": 0,
+            "startX": 8,
+            "startY": 29
+        },
+                                        
+        {
+            "name": "Orde",
+            "type": "Marble Construct",
+            "maxHp": 20,
+            "atk": 6,
+            "def": 8,
+            "hitRolls": 10,
+            "stun": 0,
+            "startX": 10,
+            "startY": 28
+        },
+                                                                                            
+        {
+            "name": "Illo",
+            "type": "Moving Pillar",
+            "maxHp": 17,
+            "atk": 6,
+            "def": 6,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 23,
+            "startY": 29
+        },
+                                                                                            
+        {
+            "name": "Loren",
+            "type": "Reanimated Knight",
+            "maxHp": 20,
+            "atk": 5,
+            "def": 7,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 22,
+            "startY": 23
+        },
+                                                                                            
+        {
+            "name": "Rodder",
+            "type": "Reanimated Knight",
+            "maxHp": 20,
+            "atk": 5,
+            "def": 7,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 24,
+            "startY": 24
+        },
+                                                                                            
+        {
+            "name": "Jenis",
+            "type": "Reanimated Knight",
+            "maxHp": 20,
+            "atk": 5,
+            "def": 7,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 23,
+            "startY": 20
+        },
+                                                                                            
+        {
+            "name": "Jenis",
+            "type": "Reanimated Knight",
+            "maxHp": 20,
+            "atk": 5,
+            "def": 7,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 23,
+            "startY": 20
+        },
+                                                                                            
+        {
+            "name": "",
+            "type": "Festering Root",
+            "maxHp": 15,
+            "atk": 5,
+            "def": 5,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 25,
+            "startY": 21
+        },
+                                                                                            
+        {
+            "name": "",
+            "type": "Festering Root",
+            "maxHp": 15,
+            "atk": 5,
+            "def": 5,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 26,
+            "startY": 21
+        },
+                                                                                            
+        {
+            "name": "",
+            "type": "Festering Root",
+            "maxHp": 15,
+            "atk": 5,
+            "def": 5,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 25,
+            "startY": 23
+        },
+                                                                                            
+        {
+            "name": "Untho",
+            "type": "Moving Pillar",
+            "maxHp": 17,
+            "atk": 6,
+            "def": 6,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 21,
+            "startY": 28
+        },
+        
+        {
+            "name": "Serpent-head",
+            "type": "Mad Acolyte",
+            "maxHp": 13,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 6,
+            "startY": 25
+        },
+        
+        {
+            "name": "Anu",
+            "type": "Wheeled Alteration",
+            "maxHp": 16,
+            "atk": 8,
+            "def": 5,
+            "hitRolls": 9,
+            "stun": 0,
+            "startX": 6,
+            "startY": 19
+        },
+                
+        {
+            "name": "Ordu",
+            "type": "Wheeled Alteration",
+            "maxHp": 16,
+            "atk": 8,
+            "def": 5,
+            "hitRolls": 9,
+            "stun": 0,
+            "startX": 3,
+            "startY": 20
+        },
+                
+        {
+            "name": "Podeu",
+            "type": "Wheeled Alteration",
+            "maxHp": 16,
+            "atk": 8,
+            "def": 5,
+            "hitRolls": 9,
+            "stun": 0,
+            "startX": 3,
+            "startY": 23
+        },
+                        
+        {
+            "name": "Un",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 14,
+            "startY": 26
+        },
+                                
+        {
+            "name": "Ud",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 14,
+            "startY": 24
+        },
+                                        
+        {
+            "name": "Ne",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 15,
+            "startY": 25
+        },
+                                                
+        {
+            "name": "Au",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 13,
+            "startY": 25
+        },
+                                                        
+        {
+            "name": "En",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 12,
+            "startY": 22
+        },
+                                                                
+        {
+            "name": "De",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 11,
+            "startY": 23
+        },
+                                                                
+        {
+            "name": "Pe",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 11,
+            "startY": 25
+        },
+                                                        
+        {
+            "name": "Si",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 12,
+            "startY": 26
+        },
+                                                         
+        {
+            "name": "Da",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 17,
+            "startY": 23
+        },
+                                                         
+        {
+            "name": "Ya",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 16,
+            "startY": 22
+        },
+                                                         
+        {
+            "name": "Ot",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 17,
+            "startY": 25
+        },
+                                                         
+        {
+            "name": "An",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 16,
+            "startY": 26
+        },
+                                                         
+        {
+            "name": "Yo",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 15,
+            "startY": 28
+        },
+                                                         
+        {
+            "name": "Ti",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 13,
+            "startY": 28
+        },
+                                                         
+        {
+            "name": "Us",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 13,
+            "startY": 27
+        },
+                                                         
+        {
+            "name": "Ar",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 15,
+            "startY": 27
+        },
+                                                         
+        {
+            "name": "Iv",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 14,
+            "startY": 23
+        },
+                                                         
+        {
+            "name": "Mo",
+            "type": "Conjured Tendon",
+            "maxHp": 12,
+            "atk": 8,
+            "def": 4,
+            "hitRolls": 8,
+            "stun": 1,
+            "startX": 14,
+            "startY": 21
+        },
+                
+        {
+            "name": "Tiend",
+            "type": "Crystalline Formation",
+            "maxHp": 15,
+            "atk": 6,
+            "def": 6,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 12,
+            "startY": 18
+        },
+                        
+        {
+            "name": "Kirr",
+            "type": "Crystalline Formation",
+            "maxHp": 15,
+            "atk": 6,
+            "def": 6,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 13,
+            "startY": 18
+        },
+                    
+        {
+            "name": "Iesth",
+            "type": "Crystalline Formation",
+            "maxHp": 15,
+            "atk": 6,
+            "def": 6,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 18,
+            "startY": 18
+        },
+                            
+        {
+            "name": "Asko",
+            "type": "Glass Golem",
+            "maxHp": 12,
+            "atk": 5,
+            "def": 9,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 16,
+            "startY": 18
+        },
+                            
+        {
+            "name": "Ceh",
+            "type": "Glass Golem",
+            "maxHp": 12,
+            "atk": 5,
+            "def": 9,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 20,
+            "startY": 18
+        },
+                            
+        {
+            "name": "Neui",
+            "type": "Glass Golem",
+            "maxHp": 12,
+            "atk": 5,
+            "def": 9,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 24,
+            "startY": 19
+        },
+        
+        {
+            "name": "Stous",
+            "type": "Sewn Brute",
+            "maxHp": 18,
+            "atk": 5,
+            "def": 8,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 18,
+            "startY": 26
+        },
+                
+        {
+            "name": "Therr",
+            "type": "Sewn Brute",
+            "maxHp": 18,
+            "atk": 5,
+            "def": 8,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 19,
+            "startY": 24
+        },
+                        
+        {
+            "name": "Aldr",
+            "type": "Sewn Brute",
+            "maxHp": 18,
+            "atk": 5,
+            "def": 8,
+            "hitRolls": 8,
+            "stun": 0,
+            "startX": 20,
+            "startY": 23
+        },
+                                
+        {
+            "name": "Munzi",
+            "type": "Stitched doll",
+            "maxHp": 10,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 19,
+            "startY": 29
+        },
+                                        
+        {
+            "name": "Fuzo",
+            "type": "Stitched doll",
+            "maxHp": 10,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 19,
+            "startY": 30
+        },
+                                        
+        {
+            "name": "Sbu",
+            "type": "Stitched doll",
+            "maxHp": 10,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 20,
+            "startY": 28
+        },
+                                        
+        {
+            "name": "Ngeno",
+            "type": "Stitched doll",
+            "maxHp": 10,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 20,
+            "startY": 29
+        },
+                                        
+        {
+            "name": "Kwami",
+            "type": "Stitched doll",
+            "maxHp": 10,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 20,
+            "startY": 27
+        },
+                             
+        {
+            "name": "Thand",
+            "type": "Stitched doll",
+            "maxHp": 10,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 19,
+            "startY": 27
+        },
+                             
+        {
+            "name": "Sikho",
+            "type": "Stitched doll",
+            "maxHp": 10,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 20,
+            "startY": 26
+        },
+                             
+        {
+            "name": "Fula",
+            "type": "Stitched doll",
+            "maxHp": 10,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 19,
+            "startY": 22
+        },
+                             
+        {
+            "name": "Mzwan",
+            "type": "Stitched doll",
+            "maxHp": 10,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 18,
+            "startY": 22
+        },
+                             
+        {
+            "name": "Zweli",
+            "type": "Stitched doll",
+            "maxHp": 10,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 19,
+            "startY": 20
+        },
+                 
+        {
+            "name": "Sheya",
+            "type": "Stitched doll",
+            "maxHp": 10,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 22,
+            "startY": 31
+        },
+                          
+        {
+            "name": "Jabil",
+            "type": "Stitched doll",
+            "maxHp": 10,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 21,
+            "startY": 29
+        },
+        
+        {
+            "name": "Depraved Matron",
+            "type": "Qnna",
+            "maxHp": 24,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 6,
+            "stun": 1,
+            "startX": 3,
+            "startY": 1
+        },
+                        
+        {
+            "name": "Ghemis",
+            "type": "Dead Guardsman",
+            "maxHp": 9,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 8,
+            "startY": 3
+        },
+                                
+        {
+            "name": "Arthus",
+            "type": "Dead Guardsman",
+            "maxHp": 9,
+            "atk": 5,
+            "def": 4,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 9,
+            "startY": 3
+        },
+                                        
+        {
+            "name": "Bormis",
+            "type": "Dead Spearman",
+            "maxHp": 11,
+            "atk": 6,
+            "def": 4,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 9,
+            "startY": 0
+        },
+                                       
+        {
+            "name": "Frances",
+            "type": "Dead Spearman",
+            "maxHp": 11,
+            "atk": 6,
+            "def": 4,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 11,
+            "startY": 1
+        },    
+                                           
+        {
+            "name": "Porthus",
+            "type": "Dead Spearman",
+            "maxHp": 11,
+            "atk": 6,
+            "def": 4,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 12,
+            "startY": 2
+        },
+                                                   
+        {
+            "name": "Anhes",
+            "type": "Dead Spearman",
+            "maxHp": 11,
+            "atk": 6,
+            "def": 4,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 12,
+            "startY": 4
+        },
+                                                           
+        {
+            "name": "Foryn",
+            "type": "Dead Spearman",
+            "maxHp": 11,
+            "atk": 6,
+            "def": 4,
+            "hitRolls": 4,
+            "stun": 0,
+            "startX": 14,
+            "startY": 0
+        },
+                                                              
+        {
+            "name": "Refus",
+            "type": "Dead Longbowman",
+            "maxHp": 9,
+            "atk": 5,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 16,
+            "startY": 5
+        },
+                                                                      
+        {
+            "name": "Adurid",
+            "type": "Dead Longbowman",
+            "maxHp": 9,
+            "atk": 5,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 15,
+            "startY": 6
+        },
+                                                                              
+        {
+            "name": "Marae",
+            "type": "Dead Longbowman",
+            "maxHp": 9,
+            "atk": 5,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 13,
+            "startY": 7
+        },
+                                                                                      
+        {
+            "name": "Ervus",
+            "type": "Dead Longbowman",
+            "maxHp": 9,
+            "atk": 5,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 13,
+            "startY": 5
+        },
+                                                                                      
+        {
+            "name": "Amis",
+            "type": "Dead Longbowman",
+            "maxHp": 9,
+            "atk": 5,
+            "def": 3,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 11,
+            "startY": 6
+        },
+                                                                                              
+        {
+            "name": "Ur",
+            "type": "Stone Halberdier",
+            "maxHp": 15,
+            "atk": 3,
+            "def": 6,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 17,
+            "startY": 0
+        },
+                                                                                                      
+        {
+            "name": "Uth",
+            "type": "Stone Halberdier",
+            "maxHp": 15,
+            "atk": 3,
+            "def": 6,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 17,
+            "startY": 3
+        },
+                                                                                                              
+        {
+            "name": "Get",
+            "type": "Stone Halberdier",
+            "maxHp": 15,
+            "atk": 3,
+            "def": 6,
+            "hitRolls": 3,
+            "stun": 0,
+            "startX": 19,
+            "startY": 2
+        },
+                                                                                      
+        {
+            "name": "Zhul",
+            "type": "Monstrous Ape",
+            "maxHp": 12,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 18,
+            "startY": 5
+        },
+                                                                                      
+        {
+            "name": "Dund",
+            "type": "Monstrous Ape",
+            "maxHp": 12,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 19,
+            "startY": 4
+        },
+                                                                                      
+        {
+            "name": "Orufe",
+            "type": "Monstrous Ape",
+            "maxHp": 12,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 21,
+            "startY": 6
+        },
+                                                                                      
+        {
+            "name": "Roul",
+            "type": "Monstrous Ape",
+            "maxHp": 12,
+            "atk": 6,
+            "def": 5,
+            "hitRolls": 5,
+            "stun": 0,
+            "startX": 20,
+            "startY": 9
+        },
+                                                                                      
+        {
+            "name": "Zanth",
+            "type": "Decaying Pilgram",
+            "maxHp": 16,
+            "atk": 6,
+            "def": 4,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 21,
+            "startY": 4
+        },
+                                                                                      
+        {
+            "name": "Xither",
+            "type": "Decaying Pilgram",
+            "maxHp": 16,
+            "atk": 6,
+            "def": 4,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 22,
+            "startY": 8
+        },
+                                                                                      
+        {
+            "name": "Zhande",
+            "type": "Decaying Pilgram",
+            "maxHp": 16,
+            "atk": 6,
+            "def": 4,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 19,
+            "startY": 6
+        },
+                                                                                      
+        {
+            "name": "Douren",
+            "type": "Decaying Pilgram",
+            "maxHp": 16,
+            "atk": 6,
+            "def": 4,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 20,
+            "startY": 2
+        },
+                                                                                    
+        {
+            "name": "Uzg",
+            "type": "Repulsive Sludge",
+            "maxHp": 18,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 26,
+            "startY": 6
+        },
+                                                                                    
+        {
+            "name": "Guf",
+            "type": "Repulsive Sludge",
+            "maxHp": 18,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 27,
+            "startY": 7
+        },
+                                                                                    
+        {
+            "name": "Yuk",
+            "type": "Repulsive Sludge",
+            "maxHp": 18,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 27,
+            "startY": 5
+        },
+                                                                                    
+        {
+            "name": "Oup",
+            "type": "Repulsive Sludge",
+            "maxHp": 18,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 29,
+            "startY": 5
+        },
+                                                                                    
+        {
+            "name": "Zouk",
+            "type": "Repulsive Sludge",
+            "maxHp": 18,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 30,
+            "startY": 7
+        },
+                                                                                    
+        {
+            "name": "Egh",
+            "type": "Repulsive Sludge",
+            "maxHp": 18,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 23,
+            "startY": 5
+        },
+                                                                                    
+        {
+            "name": "Urgh",
+            "type": "Repulsive Sludge",
+            "maxHp": 18,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 24,
+            "startY": 8
+        },
+                                                                                    
+        {
+            "name": "Abrak",
+            "type": "Attack Serpent",
+            "maxHp": 18,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 22,
+            "startY": 0
+        },
+                                                                                    
+        {
+            "name": "Otis",
+            "type": "Attack Serpent",
+            "maxHp": 18,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 23,
+            "startY": 1
+        },
+                                                                                    
+        {
+            "name": "Lasne",
+            "type": "Attack Serpent",
+            "maxHp": 18,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 25,
+            "startY": 4
+        },
+                                                                                    
+        {
+            "name": "Sahne",
+            "type": "Attack Serpent",
+            "maxHp": 18,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 28,
+            "startY": 2
+        },
+                                                                                    
+        {
+            "name": "Lashe",
+            "type": "Attack Serpent",
+            "maxHp": 18,
+            "atk": 6,
+            "def": 7,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 28,
+            "startY": 0
+        },
+                                                                                    
+        {
+            "name": "Thula",
+            "type": "Serpent Driver",
+            "maxHp": 14,
+            "atk": 5,
+            "def": 6,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 27,
+            "startY": 1
+        },
+                                                                                    
+        {
+            "name": "Gurn",
+            "type": "Serpent Driver",
+            "maxHp": 14,
+            "atk": 5,
+            "def": 6,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 25,
+            "startY": 1
+        },
+                                                                                    
+        {
+            "name": "Margon",
+            "type": "Serpent Driver",
+            "maxHp": 14,
+            "atk": 5,
+            "def": 6,
+            "hitRolls": 6,
+            "stun": 0,
+            "startX": 27,
+            "startY": 3
+        },
+                                                         
+        {
+            "name": "Uh",
+            "type": "Misshapen Shadow",
+            "maxHp": 180,
+            "atk": 12,
+            "def": 12,
+            "hitRolls": 10,
+            "stun": 0,
+            "startX": 29,
+            "startY": 0
+        },
+        
+        {
+            "name": "Thousand-Headed Basilisk",
+            "type": "Gloth",
+            "maxHp": 31,
+            "atk": 6,
+            "def": 9,
+            "hitRolls": 9,
+            "stun": 1,
+            "startX": 24,
+            "startY": 6
+        },
+        
+        {
+            "name": "Insane Warlock",
+            "type": "Graegaar",
+            "maxHp": 40,
+            "atk": 11,
+            "def": 7,
+            "hitRolls": 16,
+            "stun": 1,
+            "startX": 9,
+            "startY": 18
+        },
+        
+        {
+            "name": "Torturous Aphid",
+            "type": "Wrik",
+            "maxHp": 35,
+            "atk": 9,
+            "def": 9,
+            "hitRolls": 13,
+            "stun": 1,
+            "startX": 27,
+            "startY": 18
+        },
+        
+        {
+            "name": "Blind Father",
+            "type": "Lothrast",
+            "maxHp": 45,
+            "atk": 10,
+            "def": 10,
+            "hitRolls": 16,
+            "stun": 1,
+            "startX": 8,
+            "startY": 26
+        },
+        
+        {
+            "name": "Dancing Were-Hawk",
+            "type": "Kwyna",
+            "maxHp": 47,
+            "atk": 9,
+            "def": 11,
+            "hitRolls": 15,
+            "stun": 1,
+            "startX": 19,
+            "startY": 28
+        },
+
+        {
+            "name": "Knurk",
+            "type": "Goblin-King",
+            "maxHp": 65,
+            "atk": 11,
+            "def": 11,
+            "hitRolls": 20,
+            "stun": 1,
+            "startX": 14,
+            "startY": 25
         }
     ]
 }

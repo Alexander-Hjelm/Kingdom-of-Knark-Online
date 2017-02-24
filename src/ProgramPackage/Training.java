@@ -6,26 +6,26 @@ public class Training {
 
 	public void trainVit(Player player)
 	{
-		player.modGold(-getTrainingVitCost(player));
+		player.addGold(-getTrainingVitCost(player));
 		player.setMaxHp(	player.getMaxHp() + 1	);
 		player.setHp(	player.getHp() + 1	);
 	}
 	
 	public void trainAcc(Player player)
 	{
-		player.modGold(-getTrainingAccCost(player));
+		player.addGold(-getTrainingAccCost(player));
 		player.setAtk(	player.getAtk() + 1	);
 	}
 	
 	public void trainDef(Player player)
 	{
-		player.modGold(-getTrainingDefCost(player));
+		player.addGold(-getTrainingDefCost(player));
 		player.setDef(	player.getDef() + 1	);
 	}
 	
 	public void trainHitRolls(Player player)
 	{
-		player.modGold(-getTrainingHitRollsCost(player));
+		player.addGold(-getTrainingHitRollsCost(player));
 		player.setHitRolls(	player.getHitRolls() + 1	);
 	}
 	

@@ -35,7 +35,8 @@ public class JsonParser {
 					(int) (long) currentElement.get("atk"),
 					(int) (long) currentElement.get("def"),
 					(int) (long) currentElement.get("hitRolls"),
-					new Point((int) (long)currentElement.get("startX"), (int) (long)currentElement.get("startY"))			
+					new Point((int) (long)currentElement.get("startX"), (int) (long)currentElement.get("startY")),
+					(int) (long) currentElement.get("hitRolls")
 					));
 		}
 		return out;

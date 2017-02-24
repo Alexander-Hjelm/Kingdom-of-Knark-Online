@@ -2,19 +2,139 @@
     "Array": [
 
         {
-            "name": "Shortsword",
-            "cost": 155,
+            "name": "Cane",
+            "cost": 30,
             "hp": 0,
             "atk": 1,
             "def": 0,
             "hitRolls": 1,
             "type": "weapon"
-            
+        },
+        
+        {
+            "name": "Dagger",
+            "cost": 55,
+            "hp": 0,
+            "atk": 2,
+            "def": 0,
+            "hitRolls": 1,
+            "type": "weapon"
+        },
+        
+        {
+            "name": "Shortsword",
+            "cost": 90,
+            "hp": 0,
+            "atk": 2,
+            "def": 0,
+            "hitRolls": 2,
+            "type": "weapon"
+        },
+        
+        {
+            "name": "Quarterstaff",
+            "cost": 143,
+            "hp": 0,
+            "atk": 3,
+            "def": 0,
+            "hitRolls": 2,
+            "type": "weapon"
+        },
+                
+        {
+            "name": "Voulge",
+            "cost": 230,
+            "hp": 0,
+            "atk": 4,
+            "def": 0,
+            "hitRolls": 2,
+            "type": "weapon"
+        },
+                
+        {
+            "name": "Sabre",
+            "cost": 306,
+            "hp": 0,
+            "atk": 4,
+            "def": 0,
+            "hitRolls": 3,
+            "type": "weapon"
+        },
+                
+        {
+            "name": "Warhammer",
+            "cost": 392,
+            "hp": 0,
+            "atk": 5,
+            "def": 0,
+            "hitRolls": 3,
+            "type": "weapon"
+        },
+        
+        {
+            "name": "Claymore",
+            "cost": 502,
+            "hp": 0,
+            "atk": 5,
+            "def": 0,
+            "hitRolls": 4,
+            "type": "weapon"
+        },
+                
+        {
+            "name": "Pernach",
+            "cost": 627,
+            "hp": 0,
+            "atk": 6,
+            "def": 0,
+            "hitRolls": 5,
+            "type": "weapon"
+        },
+        
+        {
+            "name": "Rune Sword",
+            "cost": 811,
+            "hp": 0,
+            "atk": 6,
+            "def": 0,
+            "hitRolls": 6,
+            "type": "weapon"
+        },
+        
+        {
+            "name": "Hellfire Blade",
+            "cost": 1141,
+            "hp": 0,
+            "atk": 7,
+            "def": 0,
+            "hitRolls": 7,
+            "type": "weapon"
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "name": "Ox hide",
+            "cost": 45,
+            "hp": 0,
+            "atk": 0,
+            "def": 1,
+            "hitRolls": 0,
+            "type": "armor"
         },
 
         {
-            "name": "Bear hide",
-            "cost": 206,
+            "name": "Hauberk",
+            "cost": 76,
             "hp": 0,
             "atk": 0,
             "def": 2,
@@ -23,14 +143,154 @@
         },
         
         {
-            "name": "Amulet",
+            "name": "Composite",
+            "cost": 154,
+            "hp": 0,
+            "atk": 0,
+            "def": 3,
+            "hitRolls": 0,
+            "type": "armor"
+        },
+        
+        {
+            "name": "Legionary armor",
+            "cost": 295,
+            "hp": 0,
+            "atk": 0,
+            "def": 4,
+            "hitRolls": 0,
+            "type": "armor"
+        },
+        
+        {
+            "name": "Knight armor",
+            "cost": 430,
+            "hp": 0,
+            "atk": 0,
+            "def": 5,
+            "hitRolls": 0,
+            "type": "armor"
+        },
+        
+        {
+            "name": "Rune set",
+            "cost": 692,
+            "hp": 0,
+            "atk": 0,
+            "def": 6,
+            "hitRolls": 0,
+            "type": "armor"
+        },
+        
+        {
+            "name": "Hellfire set",
+            "cost": 991,
+            "hp": 0,
+            "atk": 0,
+            "def": 7,
+            "hitRolls": 0,
+            "type": "armor"
+        },
+
+
+
+
+
+
+
+
+
+        
+        {
+            "name": "Old amulet",
             "cost": 21,
+            "hp": 1,
+            "atk": 0,
+            "def": 0,
+            "hitRolls": 0,
+            "type": "amulet"
+     	},
+     	
+        {
+            "name": "Chipped amulet",
+            "cost": 38,
             "hp": 2,
             "atk": 0,
             "def": 0,
             "hitRolls": 0,
             "type": "amulet"
-     	}
+     	},
+     	
+        {
+            "name": "Tin amulet",
+            "cost": 61,
+            "hp": 3,
+            "atk": 0,
+            "def": 0,
+            "hitRolls": 0,
+            "type": "amulet"
+     	},
+     	
+        {
+            "name": "Chistled amulet",
+            "cost": 101,
+            "hp": 4,
+            "atk": 0,
+            "def": 0,
+            "hitRolls": 0,
+            "type": "amulet"
+     	},
+     	
+        {
+            "name": "Silver amulet",
+            "cost": 167,
+            "hp": 5,
+            "atk": 0,
+            "def": 0,
+            "hitRolls": 0,
+            "type": "amulet"
+     	},
+     	
+        {
+            "name": "Gold amulet",
+            "cost": 291,
+            "hp": 6,
+            "atk": 0,
+            "def": 0,
+            "hitRolls": 0,
+            "type": "amulet"
+     	},
+     	     	
+        {
+            "name": "White gold amulet",
+            "cost": 403,
+            "hp": 7,
+            "atk": 0,
+            "def": 0,
+            "hitRolls": 0,
+            "type": "amulet"
+     	},
+     	     	
+        {
+            "name": "Rune amulet",
+            "cost": 627,
+            "hp": 8,
+            "atk": 0,
+            "def": 0,
+            "hitRolls": 0,
+            "type": "amulet"
+     	},
+     	     	
+        {
+            "name": "Black amulet",
+            "cost": 791,
+            "hp": 9,
+            "atk": 0,
+            "def": 0,
+            "hitRolls": 0,
+            "type": "amulet"
+     	},
+     	
 
     ]
 }

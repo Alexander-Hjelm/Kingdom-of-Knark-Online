@@ -69,9 +69,9 @@ public class Combat {
 				{
 					//Add gold to player's inventory
 					int diff =
-							charB.getMaxHp() +
-							charB.getAtk() * 2 +
-							charB.getDef() * 2 +
+							charB.getMaxHp() * 2 +
+							charB.getAtk() * 3 +
+							charB.getDef() * 3 +
 							charB.getHitRolls() * 3;
 					
 					Random randomGenerator = new Random();
@@ -81,7 +81,7 @@ public class Combat {
 				    diff = diff + randDiff;
 				    
 					Player player = (Player) charA;
-					player.modGold(diff);
+					player.addGold(diff);
 					Debug(charA.getName() + " recived " + diff + " gold pieces!");
 				}
 			}

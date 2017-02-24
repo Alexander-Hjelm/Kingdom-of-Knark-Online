@@ -30,6 +30,13 @@ public class ConsoleOutputClass {
 		Print(posString);
 		Print(descString);
 		if (monsterString.equals("") == false) { Print(monsterString); }
+		
+		//Check for stun effects, if none, print possible directions to walk in
+		for (Monster monster: gameBoard.getCell(playerPos).getMonsters()) {
+			if (monster.getStun() && !monster.getDead()) {
+				return;
+			}
+		}
 		Print(dirString);
 	}
 	
@@ -76,20 +83,26 @@ public class ConsoleOutputClass {
 	
 	public void printShopInfo(Board gameBoard)
 	{
-		Print("Welcome to the shop! Feel free to buy anything you like! \n>> Type \"leave\" to exit the shop, and start the game...");
+		Print("Welcome to the shop! Feel free to buy anything you like! \n>> Type \"leave\" to exit the shop, and start the game... \n>> Type \"help\" to see possible commands.");
 	
 		//Print available items
 		ArrayList<Item> itemList = gameBoard.getAvailableItems();
 		for (int i = 0; i < itemList.size(); i++)
 		{
 			Item currentItem = itemList.get(i);
-			Print("->> " + currentItem.getName() + " :: " + currentItem.getCost() + " gold.");
+			if (currentItem.getCost() <= gameBoard.player.getGold()) {
+				Print("->> " + currentItem.getName() + " :: " + currentItem.getCost() + " gold.");
+			}
 		}
 		
 		//Print available training
 		Print("->> Training: Vitality :: (+1 hp) :: " + training.getTrainingVitCost(gameBoard.player) + " gold." + "\t\t[permanent]");
-		Print("->> Training: Accuracy :: (+1 atk) :: " + training.getTrainingAccCost(gameBoard.player) + " gold." + "\t\t[permanent]");
-		Print("->> Training: Toughness :: (+1 def) :: " + training.getTrainingDefCost(gameBoard.player) + " gold." + "\t\t[permanent]");
+		if (gameBoard.player.getAtk() < 4) {
+			Print("->> Training: Accuracy :: (+1 atk) :: " + training.getTrainingAccCost(gameBoard.player) + " gold." + "\t\t[permanent]");
+		}
+		if (gameBoard.player.getDef() < 4) {
+			Print("->> Training: Toughness :: (+1 def) :: " + training.getTrainingDefCost(gameBoard.player) + " gold." + "\t\t[permanent]");
+		}
 		Print("->> Training: Weapon skill :: (+1 hit roll) :: " + training.getTrainingHitRollsCost(gameBoard.player) + " gold." + "\t\t[permanent]");
 		
 		//Print available healing scroll
@@ -126,7 +139,7 @@ public class ConsoleOutputClass {
 		Print(outStr);
 	}
 	
-	private void Print(String inputText){
+	public void Print(String inputText){
 		System.out.println(inputText);
 	}
 	
@@ -165,5 +178,26 @@ public class ConsoleOutputClass {
 			}
 		}
 		return out;
+	}
+
+	public void printHelp() {
+		String helpMessage = ""
+				+ "---> Commands:"
+				+ "\nIn shop:"
+				+ "\n-> buy <item name> \t\t Buys the specified item and assigns it to the player inventory. Training items are permanent status effects."
+				+ "\n-> leave \t\t\t Exit the shop and start the game."
+				+ "\n-> status \t\t\t Displays statistics of the player."
+				+ "\n-> exit \t\t\t Exit the game."
+				+ "\n-> help \t\t\t Displays all possible commands."
+				+ "\nIn game:"
+				+ "\n-> go <north/south/east/west> \t Walk in the specified direction."
+				+ "\n-> go <n/s/e/w> \t\t Walk in the specified direction."
+				+ "\n-> attack <monster name> \t Attacks the specified monster, if present."
+				+ "\n-> heal \t\t\t Heals the player, consuming one healing scroll."
+				+ "\n-> status \t\t\t Displays statistics of the player."
+				+ "\n-> examine <monster name> \t Displays statistics of the specified monster, if present."
+				+ "\n-> exit \t\t\t Exit the game.";
+		Print(helpMessage);
+		
 	}
 }

@@ -2,16 +2,555 @@
     "Array": [
 
         {
-            "X": 0,
-            "Y": 0,
-            "desc": "You are standing in the starting room. It appears to be a dank marble cellar of sorts..."
+            "X": 1,
+            "Y": 1,
+            "desc": "The road takes a turn around the corner."
+        },
+		
+		{
+            "X": 2,
+            "Y": 1,
+            "desc": "You continue to wander the meandering halls."
+        },
+		
+		{
+            "X": 3,
+            "Y": 1,
+            "desc": "You suddenly hear a scream tumbling down from the path to your east. Here foul magic is about. You feel a shiver move down your back."
+        },
+		
+		{
+            "X": 4,
+            "Y": 1,
+            "desc": "You continue to wander the meandering halls."
+        },
+		
+		{
+            "X": 5,
+            "Y": 1,
+            "desc": "You continue cautiously along the wall of the nursery. There are more cots by the opposite wall, but there seems to be burly lumps under the sheets. Your belly turns, and you'd rather keep your distance."
+        },
+		
+		{
+            "X": 6,
+            "Y": 1,
+            "desc": "You continue cautiously along the wall of the nursery. There are more cots by the opposite wall, but there seems to be burly lumps under the sheets. Your belly turns, and you'd rather keep your distance."
+        },
+		
+		{
+            "X": 7,
+            "Y": 1,
+            "desc": "You continue cautiously along the wall of the nursery. There are more cots by the opposite wall, but there seems to be burly lumps under the sheets. Your belly turns, and you'd rather keep your distance."
+        },
+	
+		
+		{
+            "X": 9,
+            "Y": 1,
+            "desc": "Another dead-end. You notice the remains of charcoal patterns on the floor. Intricate figures have been drawn here by someone more knowledgeable in the arts. The walls look charred, as well. Wonder what happened here."
+        },
+		
+		{
+            "X": 10,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 11,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 12,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 13,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 14,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 15,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 16,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 17,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 18,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 19,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 20,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 21,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 22,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 23,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 24,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 25,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 26,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 27,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 28,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 29,
+            "Y": 1,
+            "desc": ""
+        },
+		
+		{
+            "X": 30,
+            "Y": 1,
+            "desc": ""
         },
 
         {
-            "X": 1,
-            "Y": 0,
-            "desc": "You are standing in a turbulent hallway. Hostile chatter is all about..."
+            "X": 7,
+            "Y": 2,
+            "desc": "Another blasted dead-end! There's a small, barred window in the chute above you. You catch a brief, soothing bliss of air."
         },
 
+        {
+            "X": 5,
+            "Y": 2,
+            "desc": "The gate must have been kicked in some time ago, and you enter without effort. A futile woman is chained to a post in the corner, eyes poked out and ears ripped off. Perhaps every bone is broken as well? The red peryton emblem on her worn crest reminds you of some long-forgotten nobility."
+        },
+
+        {
+            "X": 2,
+            "Y": 3,
+            "desc": "You stumble into a dead-end. A murky stream runs beneath you."
+        },
+
+        {
+            "X": 3,
+            "Y": 3,
+            "desc": "You enter a dark passage, no more spacious than your cell. You swear those are voices coming from down the hall to your right: grizzling, thumbling..."
+        },
+
+        {
+            "X": 4,
+            "Y": 3,
+            "desc": "The passage goes ever on, passing more paltry cells like your own."
+        },
+
+        {
+            "X": 5,
+            "Y": 3,
+            "desc": "The passage goes ever on, passing more paltry cells like your own."
+        },
+
+        {
+            "X": 6,
+            "Y": 3,
+            "desc": "The passage splits into two, though you can barely squeeze around the tight corners."
+        },
+        
+
+        {
+            "X": 7,
+            "Y": 3,
+            "desc": "You squeeze yourself into a utility room of some kind. The ceiling is high aloft."
+        },
+
+        {
+            "X": 4,
+            "Y": 4,
+            "desc": "The cold, rusted gate gives way. A heavy, terrible ooze belches out in your face! Is that not a corpse on the floor? The pitch-black eye-sockets are staring upwards from behind the mouldy, long fringe. Perhaps he was a mage once? Those robes sure remind you of one."
+        },
+
+        {
+            "X": 6,
+            "Y": 4,
+            "desc": "No jailor in sight. Better scramble."
+        },
+
+        {
+            "X": 6,
+            "Y": 5,
+            "desc": "You have escaped captivity, narrowly. The twisting staircase in front of you looks like it could give in at any moment."
+        },
+
+        {
+            "X": 7,
+            "Y": 5,
+            "desc": "You tread carefully upwards. The creak of wooden boards is more than distressing."
+        },
+
+        {
+            "X": 8,
+            "Y": 5,
+            "desc": "You are at the bottom of your lungs, but you start seeing warm light flicker just around the corner."
+        },
+
+        {
+            "X": 9,
+            "Y": 5,
+            "desc": "The hallway turns around a corner."
+        },
+
+        {
+            "X": 6,
+            "Y": 6,
+            "desc": "You tread carefully upwards. The creak of wooden boards is more than distressing."
+        },
+
+        {
+            "X": 7,
+            "Y": 6,
+            "desc": "You tread carefully upwards. The creak of wooden boards is more than distressing."
+        },
+
+        {
+            "X": 9,
+            "Y": 6,
+            "desc": "You are at a tall, iron door. Murmuring voices are coming from the other side, so is it really wise to proceed so fast? No, a peek couldn't hurt."
+        },
+
+        {
+            "X": 9,
+            "Y": 7,
+            "desc": "You are in the armory. Shades and revenants move chaotically about the practise dummies and tidy weapon stands."
+        },
+
+        {
+            "X": 17,
+            "Y": 7,
+            "desc": "You are in a narrow passage, among the sharp pieces of stone rubble, but you are not alone."
+        },
+
+        {
+            "X": 10,
+            "Y": 7,
+            "desc": "A large, sturdy tower sheild adorns the wall. It sport an insigna of the waking, red-painted peryton."
+        },
+
+        {
+            "X": 9,
+            "Y": 8,
+            "desc": "You are in the armory. Shades and revenants move chaotically about the practise dummies and tidy weapon stands."
+        },
+
+        {
+            "X": 10,
+            "Y": 8,
+            "desc": "You are in the armory. Shades and revenants move chaotically about the practise dummies and tidy weapon stands."
+        },
+
+        {
+            "X": 11,
+            "Y": 8,
+            "desc": "You are in the courtyard. Stone walls enclose the overgrown greenery."
+        },
+
+        {
+            "X": 12,
+            "Y": 8,
+            "desc": "Looks like there used to be a tower embedded into the wall here. The entrance still stands, but the rubble meakes the way impassable."
+        },
+
+        {
+            "X": 13,
+            "Y": 8,
+            "desc": "You are in the courtyard. Stone walls enclose the overgrown greenery."
+        },
+
+        {
+            "X": 16,
+            "Y": 8,
+            "desc": "You are in the old garden. An ancient stench of death adorns the place."
+        },
+
+        {
+            "X": 17,
+            "Y": 8,
+            "desc": "You feel a foul, rotten stench in the air, though no sound is heard. Something is not right, you should proceed carefully."
+        },
+
+        {
+            "X": 18,
+            "Y": 8,
+            "desc": "You search the bushes, and find an old, makeshift sepulchre. Moss have long rooted itself on the rock slate, and someone have scribbled poorly: 'Bewur the sire, fer he may walk againg'. You feel you should leave it be."
+        },
+
+        {
+            "X": 10,
+            "Y": 9,
+            "desc": "You head for a back door. Suddenly you can smell a gust of the evening air."
+        },
+
+        {
+            "X": 11,
+            "Y": 9,
+            "desc": "There's an old tools shack where you stand."
+        },
+
+        {
+            "X": 12,
+            "Y": 9,
+            "desc": "You are in the courtyard. Stone walls enclose the overgrown greenery."
+        },
+
+        {
+            "X": 13,
+            "Y": 9,
+            "desc": "You are in the courtyard. Stone walls enclose the overgrown greenery."
+        },
+
+        {
+            "X": 14,
+            "Y": 9,
+            "desc": "You are in the courtyard. Stone walls enclose the overgrown greenery."
+        },
+
+        {
+            "X": 15,
+            "Y": 9,
+            "desc": "You are in the old garden. An ancient stench of death adorns the place."
+        },
+
+        {
+            "X": 16,
+            "Y": 9,
+            "desc": "You are in the old garden. An ancient stench of death adorns the place."
+        },
+
+        {
+            "X": 17,
+            "Y": 9,
+            "desc": "There are marks in the dirt here. Someone was dragged to the south-east."
+        },
+
+        {
+            "X": 18,
+            "Y": 9,
+            "desc": "You are in the old garden. An ancient stench of death adorns the place."
+        },
+
+        {
+            "X": 10,
+            "Y": 10,
+            "desc": "You are at the base of an imposing arch, behind which lies the outside world, almost as if through a portal."
+        },
+
+        {
+            "X": 11,
+            "Y": 10,
+            "desc": "You are in the courtyard. Stone walls enclose the overgrown greenery."
+        },
+
+        {
+            "X": 12,
+            "Y": 10,
+            "desc": "You are at the brink of a marble fountain. Maybe it used to spurt high in bygone days? Someone's made an admirable attempt to remove the molasses-like residue at the bottom, but alas."
+        },
+
+        {
+            "X": 13,
+            "Y": 10,
+            "desc": "You are in the courtyard. Stone walls enclose the overgrown greenery."
+        },
+
+        {
+            "X": 14,
+            "Y": 10,
+            "desc": "You are at the passageway into the inner garden. The door is old and rotten, and wouldn't hold you out."
+        },
+
+        {
+            "X": 15,
+            "Y": 10,
+            "desc": "You are in the old garden. Something terrible happened here. Seeing all the scattered pieces of broken metal, and the boneshafts sticking out of the ground, you assumed someone, somewhere in time, held a devastating last stand here."
+        },
+
+        {
+            "X": 16,
+            "Y": 10,
+            "desc": "You throw yourself quickly to the side! Atop the ledge to the east are impish figures, throwing cutlery at you! They laugh hysterically as they head on north."
+        },
+
+        {
+            "X": 17,
+            "Y": 10,
+            "desc": "You are in the old garden. An ancient stench of death adorns the place."
+        },
+
+        {
+            "X": 18,
+            "Y": 10,
+            "desc": "It looks like someone blew a hole here, to gain access to the cellars. The tunnel leads downwards, but ends where the ledge above has collapsed down on it. The invaders must've continued north atop the ledge, as there are planks over the collapsed section."
+        },
+
+        {
+            "X": 20,
+            "Y": 10,
+            "desc": "There's blasted stone rubble all over. Looks like the western wall has collapsed in on itself."
+        },
+
+        {
+            "X": 11,
+            "Y": 11,
+            "desc": "You are in the courtyard. Stone walls enclose the overgrown greenery."
+        },
+
+        {
+            "X": 12,
+            "Y": 11,
+            "desc": "You are in the courtyard. Stone walls enclose the overgrown greenery."
+        },
+
+        {
+            "X": 13,
+            "Y": 11,
+            "desc": "You are in the courtyard. Stone walls enclose the overgrown greenery."
+        },
+
+        {
+            "X": 14,
+            "Y": 11,
+            "desc": "You stepped into a bagder's set, and fell over! No harm done, as far as you can tell. Though you should defenitely be more careful."
+        },
+
+        {
+            "X": 15,
+            "Y": 11,
+            "desc": "There's a rusted chectplace here, buried in the moss. It sports the red peryton, and it's heavily dented, as if the wearer was hit by an abnormally giant cudgel. They must've suffocated, if they didn't die from the blow." 
+        },
+
+        {
+            "X": 16,
+            "Y": 11,
+            "desc": "You are in the old garden. An ancient stench of death adorns the place."
+        },
+
+        {
+            "X": 17,
+            "Y": 11,
+            "desc": "You are in the old garden. An ancient stench of death adorns the place."
+        },
+
+        {
+            "X": 18,
+            "Y": 11,
+            "desc": "You are in the old garden. An ancient stench of death adorns the place."
+        },
+
+        {
+            "X": 11,
+            "Y": 12,
+            "desc": "You are in the courtyard. Stone walls enclose the overgrown greenery."
+        },
+
+        {
+            "X": 12,
+            "Y": 12,
+            "desc": "There's a lit window above you, and you squint your eyes as you think you saw a figure. You are right, there's a nasty, corpulent being shuffling about. Has it noticed you?"
+        },
+
+        {
+            "X": 13,
+            "Y": 12,
+            "desc": "You are in the courtyard. Stone walls enclose the overgrown greenery."
+        },
+
+        {
+            "X": 16,
+            "Y": 12,
+            "desc": "You are in the old garden. An ancient stench of death adorns the place."
+        },
+
+        {
+            "X": 17,
+            "Y": 12,
+            "desc": "Something weird happened here. Above you, you spot a soldier who has half fused with the wall. Scorch marks surround the visible half of his body, but he himself seems intact, and mostly preserved."
+        },
+
+        {
+            "X": 18,
+            "Y": 12,
+            "desc": "You are in the old garden. An ancient stench of death adorns the place."
+        },
+
+
+        {
+            "X": 12,
+            "Y": 13,
+            "desc": "You pass a window towards the courtyard. A peek shouldn't hurt? To your dismay, there are cowled figures moving about below. You quickly croutch for cover."
+        }
+
+
+        
     ]
 }

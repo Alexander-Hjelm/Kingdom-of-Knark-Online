@@ -15,6 +15,18 @@ public class PlayerInputClass
 	private Combat combat = new Combat();
 	private HealingScroll healingScroll = new HealingScroll();
 	
+	public int readName(Board gameBoard)
+	{
+		String inputText = input.nextLine();
+		
+		if(inputText != null && !inputText.isEmpty()) {
+			System.out.println(inputText);
+			gameBoard.player.setName(inputText);
+			return 1;
+		}
+		return 0;
+	}
+	
 	public int ReadLine(Board gameBoard)
 	{
 		String inputText = input.nextLine();
@@ -51,7 +63,7 @@ public class PlayerInputClass
 									gameBoard.player.setActiveAmulet(item);
 									break;
 								}
-								gameBoard.player.modGold(-item.getCost());
+								gameBoard.player.addGold(-item.getCost());
 								Debug("You bought a " + item.getName() + "!");
 							}
 							else
@@ -80,7 +92,12 @@ public class PlayerInputClass
 						break;
 					
 					case "Training: Accuracy":
+						int maxAccuracy = 4;
 						cost = training.getTrainingAccCost(gameBoard.player);
+						if (gameBoard.player.getAtk() >= maxAccuracy) {
+							System.out.println("Your Accuracy (" + gameBoard.player.getAtk() + ") is already maxed out.");
+							break;
+						}
 						if (gameBoard.player.getGold() >= cost)
 						{
 							training.trainAcc(gameBoard.player);
@@ -90,7 +107,12 @@ public class PlayerInputClass
 						break;
 					
 					case "Training: Toughness":
+						int maxToughness = 4;
 						cost = training.getTrainingDefCost(gameBoard.player);
+						if (gameBoard.player.getDef() >= maxToughness) {
+							System.out.println("Your Toughness (" + gameBoard.player.getDef() + ") is already maxed out.");
+							break;
+						}		
 						if (gameBoard.player.getGold() >= cost)
 						{
 							training.trainDef(gameBoard.player);
@@ -143,6 +165,9 @@ public class PlayerInputClass
 				case "status":
 					consoleOutput.printPlayerInfo(gameBoard.player);
 					break;
+				case "help":
+					consoleOutput.printHelp();
+					break;
 				default:
 					Debug("Command not recognized...");
 					break;
@@ -157,24 +182,41 @@ public class PlayerInputClass
 				case "go":
 					if(inputTextSegments.length > 1){
 						allMonstersAttack(gameBoard);
-						Cell oldCell = gameBoard.getCell(gameBoard.player.getPos());
-						int out = gameBoard.player.walk(inputTextSegments[1], gameBoard);
-						Cell newCell = gameBoard.getCell(gameBoard.player.getPos());
 						
-						for(int i = 0; i < oldCell.getMonsters().size(); i++)
-						{
-							Random random = new Random();
-							if (random.nextInt(100) > 40)
-							{
-								Monster monster = oldCell.getMonsters().get(i);
-								newCell.addMonster(monster);
-								oldCell.removeMonster(monster);
+						Cell oldCell = gameBoard.getCell(gameBoard.player.getPos());
+
+						// Check for stun effects
+						boolean stunned = false;
+						for (Monster monster: oldCell.getMonsters()) {
+							if (monster.getStun() && !monster.getDead()) {
+								stunned = true;
 							}
 						}
 						
-						if(out == 0)
-						{
-							Debug("Direction not recognized...");
+						if (!stunned) {
+						
+							int out = gameBoard.player.walk(inputTextSegments[1], gameBoard);
+							if(out == 0)
+							{
+								Debug("Direction not recognized...");
+								break;
+							}
+							Cell newCell = gameBoard.getCell(gameBoard.player.getPos());
+							
+							for(int i = 0; i < oldCell.getMonsters().size(); i++)
+							{
+								Random random = new Random();
+								if (random.nextInt(100) > 40)
+								{
+									Monster monster = oldCell.getMonsters().get(i);
+									newCell.addMonster(monster);
+									oldCell.removeMonster(monster);
+								}
+							}
+						}
+
+						else {
+							Debug("You are trapped and cannot move.");
 						}
 						break;
 					}
@@ -226,6 +268,9 @@ public class PlayerInputClass
 				
 				case "examine":
 					consoleOutput.findMonsterAndPrintInfo(inputTextSegments[1], gameBoard.getCell(gameBoard.player.getPos()));
+					break;
+				case "help":
+					consoleOutput.printHelp();
 					break;
 				default:
 					Debug("Command not recognized...");
